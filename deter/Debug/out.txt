@@ -1,2 +1,9 @@
 0: 0 1 2  | 0 1 2  | 
 0, 1, 2: 0 1 2  | 0 1 2  | 
+
+New final states: 
+012
+
+number of input signals: 2
+number of states: 3
+number of final states:1
