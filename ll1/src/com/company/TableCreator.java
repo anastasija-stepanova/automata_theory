@@ -84,6 +84,22 @@ public class TableCreator {
       }
     }
 
+    Integer count = 0;
+    for (Row r: rows) {
+      System.out.print(count + " ");
+      System.out.print(r.isEnd);
+      System.out.print(" ");
+      System.out.print(r.directionSet);
+      System.out.print(" ");
+      System.out.print(r.errorTransition);
+      System.out.print(" ");
+      System.out.print(r.shift);
+      System.out.print(" ");
+      System.out.print(r.stack);
+      System.out.print(" ");
+      System.out.println(r.goTo);
+      count++;
+    }
     return rows;
   }
 
