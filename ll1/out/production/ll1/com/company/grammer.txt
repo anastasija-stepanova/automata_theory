@@ -1,5 +1,8 @@
-[start]:<S> [end]:a b
-<S>:a <A> <S>:a
-<S>:b:b
-<A>:c <A> <S>:c
-<A>:[empty]:a b
+[start]:<E> [end]
+<E>:<E> + <T>
+<E>:<T>
+<T>:<T> * <F>
+<T>:<F>
+<F>:( <E> )
+<F>:- <F>
+<F>:i

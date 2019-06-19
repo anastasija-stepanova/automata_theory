@@ -14,13 +14,13 @@ public class TableCreator {
 
   public List<Row> createTable(List<TokenInput> grammer) {
     createHashSet(grammer);
-    termsInOrder.add("start");
     for (TokenInput line: grammer) {
       List<TokenInput> ti = new ArrayList<>();
 
       if (arrayOfInputByName.containsKey(line.token.name)) {
-        termsInOrder.add(line.token.name);
         ti = arrayOfInputByName.get(line.token.name);
+      } else {
+        termsInOrder.add(line.token.name);
       }
       ti.add(line);
       arrayOfInputByName.put(line.token.name, ti);
@@ -99,6 +99,7 @@ public class TableCreator {
       System.out.print(" ");
       System.out.println(r.goTo);
       count++;
+
     }
     return rows;
   }

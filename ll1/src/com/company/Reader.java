@@ -15,9 +15,9 @@ import java.util.List;
 
 public class Reader {
 
-  public List<TokenInput> readFromFile(String path)
+  public List<TokenIn> readFromFile(String path)
   {
-    List<TokenInput> listResult = new ArrayList<>();
+    List<TokenIn> listResult = new ArrayList<>();
 
     try{
       FileInputStream fstream = new FileInputStream(path);
@@ -32,11 +32,11 @@ public class Reader {
     return listResult;
   }
 
-  private TokenInput parseOneLine(String str)
+  private TokenIn parseOneLine(String str)
   {
     List<String> components = new ArrayList<>(Arrays.asList(str.split(Config.getInstance().inputDelimiter)));
 
-    TokenInput result = new TokenInput();
+    TokenIn result = new TokenIn();
     Token t = TokenParser.parseToken(components.get(0));
     result.token = t;
 
@@ -45,13 +45,6 @@ public class Reader {
     result.components = new ArrayList<>();
     for (String rawComponent: rawConponents) {
       result.components.add(TokenParser.parseToken(rawComponent));
-    }
-
-    result.dirSet = new HashSet<>();
-    List<String> rawDirSet =  new ArrayList<>(Arrays.asList(components.get(2).split(" ")));
-
-    for (String rawDir: rawDirSet) {
-      result.dirSet.add(rawDir);
     }
 
     return result;

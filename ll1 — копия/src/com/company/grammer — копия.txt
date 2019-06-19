@@ -1,0 +1,6 @@
+[start]:<S> [end]:a b
+<S>:a <S>:a
+<S>:b <A>:b
+<A>:c <A> d:c
+<A>:[empty]:d
+<S>:[empty]:[end]

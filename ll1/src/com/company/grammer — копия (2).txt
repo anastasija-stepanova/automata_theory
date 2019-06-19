@@ -1,0 +1,5 @@
+[start]:<L> [end]:l 
+<L>:l <M> a:l
+<M>:t <A>:t
+<A>:[empty]:a b
+<A>:b <M>:b
