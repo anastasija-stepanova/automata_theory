@@ -1,7 +1,9 @@
-[start]:<S> [end]
-<S>:real <id_list>
-<id_list>:<id> , <id_list>
-<id_list>:<id>
-<id>:A
-<id>:B
-<id>:C
+[start]:<Z> [end]
+<Z>:<E>
+<E>:<E> + <T>
+<E>:<T>
+<T>:<T> * <F>
+<T>:<F>
+<F>:- <F>
+<F>:( E )
+<F>:a

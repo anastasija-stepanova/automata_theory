@@ -1,8 +1,5 @@
 package com.company;
 
-import com.sun.javafx.css.Rule;
-
-import javax.swing.text.html.parser.Entity;
 import java.util.*;
 
 public class TableCreator {
@@ -93,6 +90,17 @@ public class TableCreator {
         calculateMiddleCell(cell, ruleId);
       }
     }
+    if (table.forward.containsKey(cell)) {
+      HashMap<Token, HashSet<RuleId>> elements = table.forward.get(cell);
+
+      for (HashSet<RuleId> r : elements.values()) {
+        if (!calculated.contains(r))
+        {
+          queue.add(r);
+        }
+      }
+    }
+
   }
 
 
@@ -101,9 +109,6 @@ public class TableCreator {
     HashSet<RuleId> follow = firstFollowCalculator.getFollow(currentToken);
 
     for (HashSet<RuleId> item : sortTokens(follow)) {
-      if (!calculated.contains(item)) {
-        queue.add(item);
-      }
       for (RuleId rule : item) {
         Token token = table.rules.get(rule.rule).components.get(rule.position);
         if (!table.jump.containsKey(cell))
@@ -131,9 +136,6 @@ public class TableCreator {
 
     List<HashSet<RuleId>> r = sortTokens(first);
     for (HashSet<RuleId> item : sortTokens(first)) {
-      if (!calculated.contains(item)) {
-        queue.add(item);
-      }
 
       for (RuleId rule : item) {
         Token token = table.rules.get(rule.rule).components.get(rule.position);

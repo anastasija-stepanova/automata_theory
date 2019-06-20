@@ -7,22 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f61657a-5b3a-4d7f-8b1e-578e8600bcba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../slr/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../slr/src/com/company/FirstFollowCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../slr/src/com/company/RuleId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../slr/src/com/company/SLR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts.rar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ll1_jar/ll1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ll1_jar/ll1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ll1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ll1/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ll1/com/company/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ll1/com/company/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ll1/com/company/TableCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ll1/com/company/TableCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ll1/com/company/grammer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ll1/com/company/grammer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TableCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TableCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/grammer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/grammer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/out/production/slr/com/company/FirstFollowCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/out/production/slr/com/company/FirstFollowCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/out/production/slr/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/out/production/slr/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/out/production/slr/com/company/TableCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/out/production/slr/com/company/TableCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/out/production/slr/com/company/grammer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/out/production/slr/com/company/grammer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/src/com/company/FirstFollowCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/src/com/company/FirstFollowCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/src/com/company/TableCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/src/com/company/TableCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/src/com/company/grammer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/src/com/company/grammer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slr/src/com/company/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../slr/src/com/company/input.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -347,7 +341,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560874954712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561048181073" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lexer2" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />

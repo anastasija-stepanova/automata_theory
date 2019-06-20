@@ -1,0 +1,7 @@
+[start]:<S> [end]
+<S>:real <id_list>
+<id_list>:<id> , <id_list>
+<id_list>:<id>
+<id>:A
+<id>:B
+<id>:C

@@ -34,7 +34,11 @@ public class FirstFollowCalculator {
         ruleId.rule = ruleNumber;
         ruleId.position = 0;
         result.add(ruleId);
-        result.addAll(getFirst(grammer.get(ruleNumber).components.get(0)));
+        if (!grammer.get(ruleNumber).components.get(0).equals(token))
+        {
+          result.addAll(getFirst(grammer.get(ruleNumber).components.get(0)));
+        }
+
       }
     }
     calculatedFirst.put(token, result);
